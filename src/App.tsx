@@ -5,7 +5,13 @@ import { Switch } from './components/ui'
 import type { StringKey } from './lib/i18n'
 import { AppProvider, useApp } from './lib/state'
 import { CompareView } from './views/CompareView'
+import { LearnView } from './views/LearnView'
+import { LedgerView } from './views/LedgerView'
+import { MoneyFlowView } from './views/MoneyFlowView'
+import { RegulatorsView } from './views/RegulatorsView'
+import { SensitivityView } from './views/SensitivityView'
 import { SimulatorView } from './views/SimulatorView'
+import { UncertaintyView } from './views/UncertaintyView'
 
 type Tab = 'sim' | 'compare' | 'uncertainty' | 'sensitivity' | 'money' | 'ledger' | 'regulators' | 'learn'
 const TABS: Tab[] = ['sim', 'compare', 'uncertainty', 'sensitivity', 'money', 'ledger', 'regulators', 'learn']
@@ -83,6 +89,12 @@ function Shell() {
       <main id="main" role="tabpanel" className="mx-auto max-w-7xl px-4 py-5">
         {tab === 'sim' && <SimulatorView />}
         {tab === 'compare' && <CompareView />}
+        {tab === 'uncertainty' && <UncertaintyView />}
+        {tab === 'sensitivity' && <SensitivityView />}
+        {tab === 'money' && <MoneyFlowView />}
+        {tab === 'ledger' && <LedgerView />}
+        {tab === 'regulators' && <RegulatorsView />}
+        {tab === 'learn' && <LearnView />}
       </main>
       <footer className="mx-auto max-w-7xl px-4 pb-8 text-xs text-muted">
         Built for FIT6050. Stackline, Nestwise, Cardinal, ClearTally and Paylo are fictional; the case is loosely based on the 2024

@@ -40,7 +40,7 @@ export function SourceTag({ source, className = '' }: { source: Source | 'model'
   if (source === 'model')
     return (
       <span
-        className={`inline-flex shrink-0 items-center gap-1 rounded-full px-1 py-0.5 text-[11px] font-medium text-muted ${className}`}
+        className={`inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-1 py-0.5 text-[11px] font-medium text-muted ${className}`}
         title="Calculated by the model from case figures and assumptions"
       >
         <span aria-hidden>◎</span>
@@ -49,7 +49,7 @@ export function SourceTag({ source, className = '' }: { source: Source | 'model'
     )
   return source === 'case' ? (
     <span
-      className={`inline-flex shrink-0 items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-[11px] font-medium text-ink-2 ${className}`}
+      className={`inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full bg-surface-2 px-2 py-0.5 text-[11px] font-medium text-ink-2 ${className}`}
       title="This figure comes from the case study"
     >
       <span aria-hidden>●</span>
@@ -57,7 +57,7 @@ export function SourceTag({ source, className = '' }: { source: Source | 'model'
     </span>
   ) : (
     <span
-      className={`inline-flex shrink-0 items-center gap-1 rounded-full border border-dashed border-axis px-2 py-0.5 text-[11px] font-medium text-ink-2 ${className}`}
+      className={`inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-dashed border-axis px-2 py-0.5 text-[11px] font-medium text-ink-2 ${className}`}
       title="This input is not in the case; it is an adjustable assumption"
     >
       <span aria-hidden>◇</span>
