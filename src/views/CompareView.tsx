@@ -210,7 +210,7 @@ function MultiChart({
           swatch: <SeriesSwatch color={SERIES_COLOR[id]} dash={STRATEGY_BY_ID[id].dash} marker={STRATEGY_BY_ID[id].marker} />,
         }))}
       />
-      <div className="h-72">
+      <div className="h-72" dir="ltr">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data} margin={{ top: 12, right: endLabelId ? 96 : 12, bottom: 0, left: 0 }}>
             <CartesianGrid {...gridProps} />

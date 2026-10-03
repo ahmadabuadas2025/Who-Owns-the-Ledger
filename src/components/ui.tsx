@@ -150,7 +150,7 @@ export function KpiTile({
   const { learnMode } = useApp()
   return (
     <div className="flex min-w-0 flex-col rounded-xl border border-line bg-surface p-3 sm:p-4">
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex flex-wrap items-start justify-between gap-x-2 gap-y-0.5">
         <span className="text-xs font-medium text-ink-2 sm:text-sm">{label}</span>
         {source && <SourceTag source={source} />}
       </div>

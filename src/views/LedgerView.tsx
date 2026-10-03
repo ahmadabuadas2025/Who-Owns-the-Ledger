@@ -219,7 +219,7 @@ function ThenDiagram({ collapsed }: { collapsed: boolean }) {
     { id: 'b3', x: 620, y: 194, w: 150, h: 56, title: 'Bank C', sub: 'pooled FBO: one total' },
   ]
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto" dir="ltr">
       <svg viewBox="0 0 780 280" className="mx-auto h-auto w-full min-w-[620px] max-w-4xl" role="img" aria-label={collapsed ? 'Stackline has failed; the link between apps and banks is cut and nobody else has the ledger.' : 'Users use fintech apps, which connect through Stackline, the only keeper of the ledger, to pooled accounts at several banks.'}>
         <Edge id="t1" d="M140 140 H190" />
         <Edge id="t2" d="M330 140 H390" />
@@ -278,7 +278,7 @@ function NowDiagram({ record }: { record: Record_ }) {
     },
   ]
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto" dir="ltr">
       <svg viewBox="0 0 850 300" className="mx-auto h-auto w-full min-w-[620px] max-w-4xl" role="img" aria-label={`Users use the Nestwise app. Cash sits at Cardinal Bank; Nest Yield balances sit with an outside custodian. ClearTally reconciles the app, its own records and Cardinal every night. Ledger of record: ${record === 'cardinal' ? 'Cardinal' : 'ClearTally'}.`}>
         <Edge id="n1" d="M130 160 H170" />
         <Edge id="n2" d="M355 148 C 400 148, 400 65, 440 65" />

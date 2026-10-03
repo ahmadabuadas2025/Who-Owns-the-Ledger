@@ -57,7 +57,7 @@ export function SensitivityView() {
             <span className="h-3 w-0.5" style={{ background: 'var(--ink)' }} /> Current inputs
           </li>
         </ul>
-        <ol className="space-y-3">
+        <ol className="space-y-3" dir="ltr">
           {bars.map((b, i) => (
             <li key={b.key} className="grid gap-1 sm:grid-cols-[12rem_1fr] sm:items-center sm:gap-3">
               <div className="text-sm">

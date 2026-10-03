@@ -119,7 +119,7 @@ function FlowDiagram({ flow, animateDots }: { flow: ReturnType<typeof moneyFlow>
   const x0 = 250
   const x1 = 520
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto" dir="ltr">
       <svg viewBox={`0 0 ${W} ${H}`} className="mx-auto h-auto w-full min-w-[620px] max-w-4xl" role="img" aria-label={`A ${f.money(flow.balance)} balance earns ${f.money(flow.reserveIncome, { cents: true })} a year for Nestwise: ${f.money(flow.rewards, { cents: true })} paid as rewards, ${f.money(flow.costs, { cents: true })} for custody and compliance, ${f.money(flow.kept, { cents: true })} kept.`}>
         {/* Balance box */}
         <rect x={10} y={srcY - 10} width={150} height={total + 20} rx={10} fill="var(--surface-2)" stroke="var(--border)" />

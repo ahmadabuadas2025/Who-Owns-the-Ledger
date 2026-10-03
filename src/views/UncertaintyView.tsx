@@ -199,7 +199,7 @@ function FanChart({ fan, color, kind }: { fan: FanPoint[]; color: string; kind: 
           { key: 'o', label: 'Middle 80%', swatch: <span className="h-3 w-5 rounded-sm" style={{ background: color, opacity: 0.15 }} /> },
         ]}
       />
-      <div className="h-64">
+      <div className="h-64" dir="ltr">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
             <CartesianGrid {...gridProps} />

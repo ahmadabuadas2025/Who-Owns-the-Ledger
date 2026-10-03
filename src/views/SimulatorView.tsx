@@ -265,7 +265,7 @@ function UsersChart({ result, month }: { result: SimResult; month: number }) {
           { key: 'b', label: 'Best case', swatch: <SeriesSwatch color="var(--muted)" dash="4 3" marker="none" /> },
         ]}
       />
-      <div className="h-64 sm:h-72">
+      <div className="h-64 sm:h-72" dir="ltr">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data} margin={{ top: 16, right: 8, bottom: 0, left: 0 }}>
             <CartesianGrid {...gridProps} />
@@ -316,7 +316,7 @@ function CashChart({ result, month }: { result: SimResult; month: number }) {
   return (
     <>
       <Legend items={[{ key: 'c', label: 'Cash', swatch: <SeriesSwatch color={color} dash={meta.dash} marker={meta.marker} /> }]} />
-      <div className="h-64 sm:h-72">
+      <div className="h-64 sm:h-72" dir="ltr">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data} margin={{ top: 16, right: 8, bottom: 0, left: 0 }}>
             <CartesianGrid {...gridProps} />
