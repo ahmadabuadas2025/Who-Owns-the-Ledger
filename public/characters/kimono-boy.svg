@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 600" role="img" aria-label="Chibi boy in a blue kimono">
+  <g stroke="#111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- hair, back layer -->
+    <path fill="#16161a" d="M180 20 C120 18 70 50 52 105 L22 120 L52 140 L30 175 L66 178 L56 225 L92 205 L96 150 L264 150 L268 205 L304 225 L294 178 L330 175 L308 140 L338 120 L308 105 C292 60 255 30 222 24 L240 6 Z"/>
+
+    <!-- ears -->
+    <ellipse cx="90" cy="190" rx="18" ry="24" fill="#f3c99b"/>
+    <ellipse cx="270" cy="190" rx="18" ry="24" fill="#f3c99b"/>
+
+    <!-- neck -->
+    <rect x="160" y="250" width="40" height="45" fill="#e8b886"/>
+
+    <!-- sandals -->
+    <path fill="#8a5a2b" d="M112 575 Q112 560 135 558 L172 558 Q186 560 186 575 Q186 585 172 585 L126 585 Q112 585 112 575 Z"/>
+    <path fill="#8a5a2b" d="M174 575 Q174 560 188 558 L225 558 Q248 560 248 575 Q248 585 234 585 L188 585 Q174 585 174 575 Z"/>
+
+    <!-- feet -->
+    <path fill="#f3c99b" d="M126 560 Q128 545 150 545 Q170 545 172 560 Z"/>
+    <path fill="#f3c99b" d="M188 560 Q190 545 210 545 Q232 545 234 560 Z"/>
+
+    <!-- trousers -->
+    <path fill="#3e5f93" d="M134 515 L132 548 L170 548 L172 515 Z"/>
+    <path fill="#3e5f93" d="M188 515 L190 548 L228 548 L226 515 Z"/>
+
+    <!-- lower robe -->
+    <path fill="#4f74ad" d="M124 410 L114 528 L246 528 L236 410 Z"/>
+
+    <!-- sleeves -->
+    <path fill="#4f74ad" d="M120 292 Q92 300 84 340 L66 440 L118 448 L126 360 Z"/>
+    <path fill="#4f74ad" d="M240 292 Q268 300 276 340 L294 440 L242 448 L234 360 Z"/>
+    <path fill="none" stroke-width="4" d="M108 380 L104 440 M252 380 L256 440"/>
+
+    <!-- hands -->
+    <path fill="#f3c99b" d="M80 444 L108 446 Q112 472 96 476 Q78 474 80 444 Z"/>
+    <path fill="#f3c99b" d="M252 446 L280 444 Q282 474 264 476 Q248 472 252 446 Z"/>
+
+    <!-- torso -->
+    <path fill="#4f74ad" d="M120 292 L240 292 L240 410 L120 410 Z"/>
+
+    <!-- collar: right lapel over left -->
+    <path fill="#a9c4e8" d="M150 290 L180 340 L210 290 L222 292 L180 360 L138 292 Z"/>
+    <path fill="#eef3fa" d="M138 292 L150 290 L215 400 L200 400 Z"/>
+    <path fill="#a9c4e8" d="M210 290 L222 292 L190 345 L184 336 Z"/>
+
+    <!-- front panel stripe below obi -->
+    <path fill="#a9c4e8" d="M182 430 L196 430 L192 528 L178 528 Z"/>
+
+    <!-- obi belt -->
+    <path fill="#26262b" d="M118 392 Q180 400 242 392 L244 430 Q180 438 116 430 Z"/>
+
+    <!-- face -->
+    <path fill="#f3c99b" d="M92 150 Q92 268 180 278 Q268 268 268 150 Z"/>
+
+    <!-- hair fringe -->
+    <path fill="#16161a" stroke="none" d="M58 135 C68 56 130 36 180 38 C240 36 294 66 302 135 L282 190 L268 128 L248 150 L238 108 L214 140 L200 96 L178 140 L164 100 L140 145 L132 110 L110 160 L100 130 L80 195 Z"/>
+    <path fill="none" d="M300 135 L282 190 L268 128 L248 150 L238 108 L214 140 L200 96 L178 140 L164 100 L140 145 L132 110 L110 160 L100 130 L80 195 L62 140"/>
+
+    <!-- eyes -->
+    <ellipse cx="138" cy="200" rx="20" ry="24" fill="#111"/>
+    <ellipse cx="222" cy="200" rx="20" ry="24" fill="#111"/>
+    <path fill="none" stroke-width="4" d="M115 192 Q138 166 161 192 M199 192 Q222 166 245 192"/>
+
+    <!-- mouth -->
+    <path fill="none" stroke-width="3.5" d="M168 246 Q180 254 192 246"/>
+  </g>
+
+  <!-- details without outline -->
+  <circle cx="130" cy="192" r="7" fill="#fff"/>
+  <circle cx="144" cy="210" r="3.5" fill="#fff"/>
+  <circle cx="214" cy="192" r="7" fill="#fff"/>
+  <circle cx="228" cy="210" r="3.5" fill="#fff"/>
+  <path fill="#d9a070" d="M176 228 Q180 232 184 228 Q180 224 176 228 Z"/>
+  <path fill="#3e5f93" d="M126 300 L150 300 L150 390 L128 390 Z" opacity=".35"/>
+  <path fill="#3e5f93" d="M124 435 L170 435 L162 524 L118 524 Z" opacity=".35"/>
+</svg>
